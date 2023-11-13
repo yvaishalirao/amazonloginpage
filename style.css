@@ -1,0 +1,259 @@
+*{
+    margin: 0;
+    font-family: arial;
+    border: border-box;
+}
+
+.navbar{
+    height: 60px;
+    background-color: #0f1111;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.navlogo{
+    height: 55px;
+    width: 100px;
+}
+.logo{
+    background-image: url("amazon-photos/amzlogo1.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    height: 50px;
+    width: 100%;
+}
+
+.border{
+    border: 2px solid transparent;
+}
+
+.border:hover{
+    border: 2px solid white;
+}
+
+.addf{
+    color: #cccccc;
+    font-size: 0.85rem;
+    margin-left: 15px;
+}
+
+.adds{
+     font-size: 1rem;
+     margin-left: 3px;
+}
+
+.addicon{
+    display: flex;
+}
+
+.navaddress{
+    margin-left: 10px;
+}
+
+.navsearch{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: orange;
+    width: 620px;
+    height: 40px;
+    border-radius: 3px;
+}
+
+.searchselect{
+    background-color: #f3f3f3;
+    width: 50px;
+    text-align: center;
+    border-top-left-radius: 3px;
+    border-bottom-left-radius: 3px;
+    border: none;
+}
+
+.searchinput{
+    width: 100%;
+    font-size: 1rem;
+    border: none;
+}
+.searchicon{
+    width: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.3rem;
+    color: #0f1111;
+}
+ .signin a{
+    text-decoration: none;
+    color: white;
+}
+
+span{
+    font-size: 0.7rem;
+}
+
+.navsec{
+    font-size: 0.85rem;
+    font-weight: 700;
+}
+
+.navsearch:hover{
+    border: 2px solid orange;
+}
+
+.navcart i{
+    font-size: 1.5rem; 
+    font-weight: 700;
+}
+
+.panel{
+    height: 40px;
+    background-color: #222f3d;
+    display: flex;
+    color: white;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.panelop p{
+    display: inline;
+    margin-left: 10px;
+}
+
+.panelop{
+    width: 70%;
+    font-size: 0.85rem;
+}
+
+.paneldeals{
+    font-size: 0.9rem;
+    font-weight: 750;
+}
+
+.giftsection{
+    background-image: url("amazon-photos/amz1.jpg");
+    background-size: cover;
+    height: 375px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.giftmessage{
+    background-color: white;
+    color: black;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.85rem;
+    margin-bottom: 25px;    
+    width: 80%;
+}
+
+.giftmessage a{
+    color: #007185;
+}
+
+.box{
+    height: 400px;
+    width: 23%;
+    background-color: white;
+    padding: 20px 0px 15px;
+    margin-top: 10px;
+}
+
+.shopsection{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #e2e7e6;
+    flex-wrap: wrap;
+}
+
+.boximg{
+    height: 300px;
+    /* background-size: contain; */
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.boxcontent{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.boxcontent p{
+    color: #007185;
+}
+
+.footer{
+    margin-top: 15px;
+}
+
+.backtotop{
+    background-color: #313d4b;
+    color: white;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footpanel{
+    background-color: #222f3d;
+    color: white;
+    height: 500px;
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+.footpanel ul{
+    margin-top: 10px;
+}
+
+.footpanel ul a{
+    display: block;
+    font-size: 0.8rem;
+    margin-top: 12px;
+    color: #dddddd;
+}
+
+.footpanel2{
+    background-color: #222f3d;
+    color: white;
+    border-top: 1px solid white;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logof{
+    background-image: url("amazon-photos/amzlogo1.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    height: 50px;
+    width: 100px;
+}
+
+.copyr{
+    background-color: #252526;
+    color: #cccccc;
+    height: 85px;
+}
+
+.ops{
+    font-size: 0.75rem;
+    text-align: center;
+    padding-top: 20px;
+}
+
+.aff{
+    font-size: 0.75rem;
+    text-align: center;
+    margin: 15px;
+}
+
